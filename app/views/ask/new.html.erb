@@ -1,2 +1,16 @@
-<h1>Ask#new</h1>
-<p>Find me in app/views/ask/new.html.erb</p>
+<div id="question-form">
+	<%= form_for :question do |form| %>
+		<div id="errors">
+			<% @question.errors.full_messages.each do |msg| %>
+		      <%= msg %><br />
+		   <% end %>
+		</div>
+		<div id="quesiton">
+			<label for="question_question">Question:</label>
+			<%= form.text_field :question, :size => 60 %>
+		</div>
+		<div  id="submit">
+			<%= submit_tag "Submit Question", :class => "submit" %>
+		</div>
+	<%- end %>
+</div>
