@@ -1,8 +1,5 @@
 Inputee::Application.routes.draw do
-  get "ask/new"
-  get "ask/list"
-  get "ask/delete"
-  get "ask/edit"
+  resources :questions
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,9 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  question: MyText
-  deleted: false
+  name: MyText
+  delete: 
+  default: MyString
+  'false': MyString
 
 two:
-  question: MyText
-  deleted: false
+  name: MyText
+  delete: 
+  default: MyString
+  'false': MyString

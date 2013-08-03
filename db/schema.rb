@@ -11,11 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130731035234) do
+ActiveRecord::Schema.define(version: 20130802111650) do
 
   create_table "questions", force: true do |t|
-    t.text     "question"
-    t.boolean  "deleted"
+    t.text     "name"
+    t.boolean  "deleted",    default: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
