@@ -11,3 +11,38 @@
  *= require_self
  *= require_tree .
  */
+ 
+ body {
+	margin: 0;
+	padding: 0;
+}
+ 
+ h1 {
+	width: 100%;
+	background-color: #493533;
+	color: #fff;
+	padding: 1em 0 1em .4em;
+	font-weight: normal;
+	font-style: normal;
+	margin: 0 0 1.4em 0;
+}
+
+
+.question, .question-alt {
+	padding: 1em 0 1em 1em;
+	font-size: 2em;
+}
+
+.question-alt {
+	background-color: #cecece;
+}
+
+textarea#question_name {
+	font-size: 2em;
+}
+
+.actions input {
+	font-size: 2em;
+	color: #fff;
+	background-color: #4a7cff;
+}
